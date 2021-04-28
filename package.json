@@ -1,7 +1,9 @@
 {
   "name": "react-responsive-pagination-table",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Appasaheb Lakade",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.13.1",
     "moment": "^2.29.1",
@@ -9,6 +11,20 @@
     "react-bootstrap-table2-editor": "^1.4.0",
     "react-bootstrap-table2-filter": "^1.3.3",
     "react-bootstrap-table2-paginator": "^2.1.2",
-    "react-bootstrap-table2-toolkit": "^2.1.3",
-  }
+    "react-bootstrap-table2-toolkit": "^2.1.3"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "pagination-table",
+    "responsive-table"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appasaheb4/react-responsive-pagination-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/appasaheb4/react-responsive-pagination-table/issues"
+  },
+  "homepage": "https://github.com/appasaheb4/react-responsive-pagination-table#readme"
  }
