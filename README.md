@@ -1,0 +1,1 @@
+# react-responsive-pagination-table
