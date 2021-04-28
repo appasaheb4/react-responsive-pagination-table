@@ -3,6 +3,14 @@
 ```
 ## Child Comp
 import * as LibraryComponents from "@{path}/library/components"
+interface ListProps {
+  data: any
+  isDelete?: boolean
+  isEditModify?: boolean
+  onDelete?: (selectedItem: LibraryModels.Confirm) => void
+  onSelectedRow?: (selectedItem: any) => void
+  onUpdateItem?: (value: any, dataField: string, id: string) => void
+}
 const List = (props: ListProps) => {
   return (
     <LibraryComponents.Organisms.TableBootstrap
