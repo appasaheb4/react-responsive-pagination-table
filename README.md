@@ -2,7 +2,7 @@
 
 ```
 ## Child Comp
-import * as LibraryComponents from "@{path}/library/components"
+import * as LibraryComponents from "react-responsive-pagination-table"
 interface ListProps {
   data: any
   isDelete?: boolean
