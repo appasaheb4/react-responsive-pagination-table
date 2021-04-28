@@ -7,10 +7,6 @@ import paginationFactory from "react-bootstrap-table2-paginator"
 import filterFactory from "react-bootstrap-table2-filter"
 import moment from "moment"
 
-import * as LibraryComponents from "@lp/library/components"
-import * as LibraryModels from "@lp/library/models"
-
-import * as Config from "@lp/config"
 
 const { SearchBar, ClearSearchButton } = Search
 const { ExportCSVButton } = CSVExport
@@ -23,7 +19,7 @@ interface TableBootstrapProps {
   isDelete?: boolean
   isEditModify?: boolean
   isSelectRow?: boolean
-  onDelete?: (selectedItem: LibraryModels.Confirm) => void
+  onDelete?: (selectedItem: any) => void
   onSelectedRow?: (selectedItem: any) => void
   onUpdateItem?: (value: any, dataField: string, id: string) => void
 }
@@ -61,7 +57,7 @@ const TableBootstrap = (props: TableBootstrapProps) => {
   }) => (
     <div className="btn-group items-center" role="group">
       {isSelectRow && (
-        <LibraryComponents.Atoms.Buttons.Button
+        <button
           style={{ height: 10, width: 200 }}
           size="small"
           type="solid"
@@ -73,13 +69,14 @@ const TableBootstrap = (props: TableBootstrapProps) => {
             }
           }}
         >
-          <LibraryComponents.Atoms.Icons.EvaIcon
+          <icon
             icon="trash-outline"
             size="large"
-            color={Config.Styles.COLORS.BLACK}
-          />
+            color="#000"
+          /> 
+          {/* use here any icon */}
           Remove Selected
-        </LibraryComponents.Atoms.Buttons.Button>
+        </button>
       )}
       <input
         type="number"
