@@ -57,5 +57,5 @@ export default List
             }}
           />
 ```
-<img src="./assets/table.png">
+<img src="assets/table.png">
 more info watch videos: https://www.youtube.com/channel/UCvD-7h7G0IYWRC42jAjSHXQ
