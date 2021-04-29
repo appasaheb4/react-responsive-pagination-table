@@ -1,2 +1,1 @@
-import * as Table from './src/library/components';
-export { Table };
+export * from './src/library/components';
