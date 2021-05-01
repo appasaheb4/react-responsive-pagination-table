@@ -1,6 +1,18 @@
-# How to use
+# React Responsive Pagination Table
+
+Easy responsive table manage.Single delete,multiple delete, Edit single singel filed,search gobal and single filed and more....
+
+## Installation
 
 ```
+npm i react-responsive-pagination-table
+or
+yarn add react-responsive-pagination-table
+```
+
+## Usage
+
+```jsx
 ## Child Comp
 import * as LibraryComponents from "react-responsive-pagination-table"
 interface ListProps {
@@ -46,6 +58,8 @@ const List = (props: ListProps) => {
 export default List
 
 ## Parent Comp
+import List from './List';
+
 <List
             data={yourArray}
             isDelete={true}
@@ -57,7 +71,9 @@ export default List
             }}
           />
 ```
-<img src="https://github.com/appasaheb4/react-responsive-pagination-table/blob/main/assets/table.png">
 
+### Outputs
+
+<img src="https://github.com/appasaheb4/react-responsive-pagination-table/blob/main/assets/table.png">
 
 ### More inforamtion watch youtube channel: https://www.youtube.com/channel/UCvD-7h7G0IYWRC42jAjSHXQ
