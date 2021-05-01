@@ -31,7 +31,8 @@
     "react",
     "table",
     "pagination-table",
-    "responsive-table"
+    "responsive-table",
+    "tech-abl"
   ],
   "repository": {
     "type": "git",
