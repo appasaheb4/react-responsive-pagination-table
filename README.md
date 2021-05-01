@@ -60,8 +60,21 @@ export default List
 ## Parent Comp
 import List from './List';
 
+const array: [
+  {
+    _id:"86fds987fgfdsg86",
+    name: 'Collection',
+    title: 'Master Setup',
+  },
+  {
+    _id:"86fds987fgfdsg87",
+    name: 'Setting',
+    title: 'Login Activity',
+  }
+];
+
 <List
-            data={yourArray}
+            data={array}
             isDelete={true}
             isEditModify={false}
             onDelete={(selectedItem) =>console.log({selectedItem})}
