@@ -89,4 +89,4 @@ const array: [
 
 <img src="https://github.com/appasaheb4/react-responsive-pagination-table/blob/main/assets/table.png">
 
-### More inforamtion watch youtube channel: https://www.youtube.com/channel/UCvD-7h7G0IYWRC42jAjSHXQ
+### More inforamtion watch youtube channel: https://www.youtube.com/tech-abl
